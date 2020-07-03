@@ -10,7 +10,7 @@ class Admin(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.last_loaded = time()
-        self.limit = 0
+        self.limit = 60
         self.cog_list = []
         self._cache_cog_list()
 
@@ -30,8 +30,9 @@ class Admin(commands.Cog):
             await ctx.send(f'Please wait for {self.limit}s before reloading')
 
         else:
-            reloaded = []
+            logging.info('Hotpatching cogs...')
 
+            reloaded = []
             for extension in self.cog_list:
                 if extension in ['cogs.admin', 'cogs.errors']:
                     continue

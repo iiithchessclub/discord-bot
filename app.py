@@ -40,7 +40,7 @@ def main():
         else:
             logging.info(f'[COG] Loaded {extension}!')
 
-    @bot.event    
+    @bot.event
     async def on_ready():
         logging.info(f'Logged in as {bot.user}')
 
