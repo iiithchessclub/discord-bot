@@ -11,7 +11,7 @@ pip install
 ```
 
 ### Config
-Copy `config/config_example.json` to `config/config.json` and put the bot token.
+Copy `config/config_example.py` to `config/config.py` and fill in the options.
 
 ### Running
 ```bash
@@ -28,8 +28,8 @@ Architecture
 │   ├── admin.py     (administration commands)
 │   ├── errors.py    (error handlers)
 │   └── ...          (add more cogs here)
-├── config
-│   └── config.json
+├── config           (app config files)
+│   └── config.py    (standard config options)
 ├── utils            (all utilities and helpers that the bot commands use)
 └── logs             (all application log files go here)
 ```
