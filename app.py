@@ -44,7 +44,7 @@ def main():
         logging.info(f'Logged in as {bot.user}')
 
     # Connect
-    bot.run(config.get('BOT_TOKEN'))
+    bot.run(config.BOT_TOKEN)
 
 if __name__ == "__main__":
     main()

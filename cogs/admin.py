@@ -19,10 +19,10 @@ class Admin(commands.Cog):
 
     @commands.group(brief='Bot management commands', invoke_without_command=True)
     @commands.is_owner()
-    async def hotpatch(self, ctx):
+    async def admin(self, ctx):
         await ctx.send_help(ctx.command)
 
-    @hotpatch.command(brief='Hotpatch all modified cogs. Cooldown of 60s.')
+    @admin.command(brief='Hotpatch all modified cogs. Cooldown of 60s.')
     @commands.is_owner()
     async def reload(self, ctx):
         cur_time = time()
@@ -50,22 +50,27 @@ class Admin(commands.Cog):
             self.last_loaded = cur_time
             await ctx.send(f'Reloaded cogs: {", ".join(reloaded)}')
 
-    @hotpatch.command(brief='Set the cooldown limit for hotpatching.', usage='[seconds]')
+    @admin.command(brief='Set the cooldown limit for hotpatching.', usage='[seconds]')
     @commands.is_owner()
     async def setlimit(self, ctx, lim: int):
         self.limit = lim
         await ctx.send(f'Changed the reload limit to {lim}s.')
     
-    @hotpatch.command(brief='Recompute extensions list.')
+    @admin.command(brief='Recompute extensions list.')
     @commands.is_owner()
     async def recache(self, ctx):
         self._cache_cog_list()
         await ctx.send(f'Recached cogs: {", ".join(self.cog_list)}.')
 
-    @hotpatch.command(brief='Shutdown the bot.')
+    @admin.command(brief='Shutdown the bot.')
     @commands.is_owner()
     async def shutdown(self, ctx):
         sys.exit(0)
+
+    @admin.command(brief='Shutdown the bot.')
+    @commands.is_owner()
+    async def send_embed(self, ctx):
+        await ctx.send('[TODO] Rules Message')
 
 def setup(bot):
     bot.add_cog(Admin(bot))
