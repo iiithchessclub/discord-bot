@@ -34,14 +34,19 @@ def main():
     for extension in cog_list:
         try:
             bot.load_extension(extension)
-        except:
+        except Exception as e:
             logging.warning(f'[COG] LOAD FAILED: {extension}')
+            logging.warning(str(e))
         else:
             logging.info(f'[COG] Loaded {extension}!')
 
     @bot.event
     async def on_ready():
         logging.info(f'Logged in as {bot.user}')
+
+    # Dry run, to verify the code
+    if config.get('DRY_RUN'):
+        return
 
     # Connect
     bot.run(config.BOT_TOKEN)

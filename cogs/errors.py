@@ -17,6 +17,7 @@ import discord
 import traceback
 import sys
 from discord.ext import commands
+import logging
 
 class CommandErrorHandler(commands.Cog):
     def __init__(self, bot):
