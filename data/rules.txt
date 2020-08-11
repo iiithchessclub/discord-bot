@@ -1,18 +1,34 @@
 **Server Rules**
 ==================================================
 
-1. Only IIIT-H Students/Alumni/Staff Allowed
+Welcome to the IIIT Chess Club Discord Server!
 
-2. Random chats, trolls, rants, memes and every other thing that comes under spamming is strictly confined to #off-topic. Spamming anywhere else can get you banned.
+**Server Policy**
+=================
+1. Only IIIT-H Students/Alumni/Staff allowed.
 
-3. Keep the existing FB group for announcements (tournaments, major resources, etc.).
+2. Random chats, trolls, rants, memes and every other thing that comes under spamming is strictly confined to #off-topic and #memes. Spamming anywhere else can get you banned.
 
-4. Keep your discussions relevant to the channel you are in. You can read what each channel is for by clicking on the title of the channel after opening it.
+3. Admins reserve the right to delete any message from the server if they don't abide by the rules of the server.
 
-5. Use spoilers when giving hints/solutions. Here is how to mark stuff as spoiler ->> ||spoiler|| i.e., wrap your text between two '||'s.
+4. Admins also reserve the right to add, delete or modify the rules in the future if they think it is necessary. Any discrepancies will be handled by admins and their decision will be final and binding.
 
-6. Admins reserve the right to delete any message from the server if they don't abide by the rules of the server.
-
-7. Admins also reserve the right to add, delete or modify the rules in the future if they think it is necessary. Any discrepancies will be handled by admins and their decision will be final and binding.
+5. If you have any queries or issues you can ask in #help, or for specific issues ping an @Arbiter.
 
 Members of the server who don't want to follow the rules can freely leave the server.
+
+**Verification**
+================
+
+1. **Please set your server nickname to your real name.**
+
+2. Once you read all the rules and accept them, you cannot change your nickname anymore.
+
+**Channels**
+=============
+
+1. Channel categories and names are self explanatory. Please read the channel descriptions before messaging.
+
+2. Keep your discussions on topic in the respective channels.
+
+3. Use spoilers when giving hints/solutions. Here is how to mark stuff as spoiler ->> ||spoiler|| i.e., wrap your text between two '||'s.
