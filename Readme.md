@@ -51,7 +51,7 @@ Architecture
 
 License
 -------
-*Not Licensed*
+MIT
 
 Developers
 ----------
