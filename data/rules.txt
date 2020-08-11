@@ -1,2 +1,3 @@
-Server Rules
+**Server Rules**
+==================================================
 To be updated...
