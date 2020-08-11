@@ -3,8 +3,8 @@ from os import environ as env
 # TIP: can extract options from `env`.
 
 ### Bot options
-TOKEN = 'BOT_API_TOKEN_HERE'
-PREFIX = '-' # bot commands prefix
+# BOT_TOKEN = 'BOT_API_TOKEN_HERE'
+# PREFIX = '-' # bot commands prefix
 
 ### Logging
 # APP_LOG_DIR = 'directory for logs. defaults to `logs/`'

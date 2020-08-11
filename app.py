@@ -29,7 +29,7 @@ def main():
     setup_logging()
 
     # Setup Bot
-    bot = commands.Bot(command_prefix=commands.when_mentioned_or(config.PREFIX))
+    bot = commands.Bot(command_prefix=commands.when_mentioned_or(config.get('PREFIX', '!')))
     cog_list = [str(file).replace('/', '.').replace('.py', '') for file in Path('cogs').glob('**/*.py')]
     for extension in cog_list:
         try:
