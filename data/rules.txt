@@ -1,3 +1,18 @@
 **Server Rules**
 ==================================================
-To be updated...
+
+1. Only IIIT-H Students/Alumni/Staff Allowed
+
+2. Random chats, trolls, rants, memes and every other thing that comes under spamming is strictly confined to #off-topic. Spamming anywhere else can get you banned.
+
+3. Keep the existing FB group for announcements (tournaments, major resources, etc.).
+
+4. Keep your discussions relevant to the channel you are in. You can read what each channel is for by clicking on the title of the channel after opening it.
+
+5. Use spoilers when giving hints/solutions. Here is how to mark stuff as spoiler ->> ||spoiler|| i.e., wrap your text between two '||'s.
+
+6. Admins reserve the right to delete any message from the server if they don't abide by the rules of the server.
+
+7. Admins also reserve the right to add, delete or modify the rules in the future if they think it is necessary. Any discrepancies will be handled by admins and their decision will be final and binding.
+
+Members of the server who don't want to follow the rules can freely leave the server.
