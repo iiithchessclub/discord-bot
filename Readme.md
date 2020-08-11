@@ -18,6 +18,19 @@ Copy `config/config_example.py` to `config/config.py` and fill in the options.
 python app.py
 ```
 
+Server Setup
+------------
+### Roles
+The server needs to have the following roles for the bot to function properly:
+- **Admin**
+- **Player**: For users with verified lichess handles
+- **IIIT**: For users with verified IIIT email accounts
+- **Verified**: For users who have read and accepted the server rules
+- **unregistered**: For new users who join the server (and can edit their own nickname)
+
+### Channels
+- **server-rules**
+
 Architecture
 ------------
 **Disclaimer** The bot development is still in progress, and the bot may have numerous bugs.
@@ -38,7 +51,7 @@ Architecture
 
 License
 -------
-*Not Licensed*
+MIT
 
 Developers
 ----------
