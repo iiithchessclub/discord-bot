@@ -7,4 +7,4 @@ echo 'BOT_TOKEN = env["BOT_TOKEN"]' >> config/config.py
 echo 'PREFIX = env.get("PREFIX", "!")' >> config/config.py 
 
 # run the bot
-python app.py
+python3.7 app.py &
