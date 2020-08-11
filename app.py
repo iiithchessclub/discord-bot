@@ -44,6 +44,15 @@ def main():
     async def on_ready():
         logging.info(f'Logged in as {bot.user}')
 
+    def no_dm_check(ctx):
+        if ctx.guild is None:
+            raise commands.NoPrivateMessage('Private messages not permitted.')
+        return True
+
+    # Restrict bot usage to inside guild channels only.
+    bot.add_check(no_dm_check)
+
+    
     # Dry run, to verify the code
     if config.get('DRY_RUN'):
         return
